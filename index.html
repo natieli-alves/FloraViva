@@ -9,11 +9,34 @@
     <link rel="stylesheet" href="assets/css/header.css"/>
     <link rel="stylesheet" href="assets/css/body.css"/>
     <link rel="stylesheet" href="assets/css/footer.css"/>
-    
-    <!-- ICONES MENU -->
+
+    <!-- ICONES DO MENU -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    
+
+    <header>
+        <div class="container-topbar">
+            <img src="assets/imagens/Logo FloraViva.png" alt="Logo" id="logo" class="logo">
+
+            <!-- MENU TOGGLE -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+            <!-- ICONES -->
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fa-solid fa-bars icon-open"></i>
+                <i class="fa-solid fa-xmark icon-close"></i>
+            </label>
+
+            <!-- MENU -->
+            <nav class="nav menu-lateral">
+                <a href="#">Inicio</a>
+                <a href="#">Especies</a>
+                <a href="#">Cultivo</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+    </header>
+
 </body>
 </html>
