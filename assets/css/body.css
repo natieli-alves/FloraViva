@@ -136,3 +136,40 @@ body {
     color: #643022; 
 }
 
+/*Especies RARAS*/
+.split-block {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.split-image img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.split-image img:hover {
+    transform: scale(1.05);
+}
+
+.split-content {
+    max-width: 500px;
+}
+
+.split-content h3 { 
+    margin-bottom: 12px; 
+    color: #643022; 
+}
+
+.split-content p { 
+    color: #6b7b72; 
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
