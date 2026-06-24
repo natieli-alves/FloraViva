@@ -173,3 +173,6 @@ body {
     line-height: 1.6;
 }
 
+.reverse-content {
+    text-align: right;
+}
