@@ -1,3 +1,4 @@
+/*----layout footer----*/
 .footer-grid {
     display: flex;
     justify-content: space-between;
@@ -8,6 +9,7 @@
     padding: 0 16px;
 }
 
+/*----Iconezinho e texto----*/
 .footer-brand .paw {
     font-size: 30px;
     margin-bottom: 10px;
@@ -19,6 +21,7 @@
     font-size: 14px;
 }
 
+/*----Menu----*/
 .footer-col h4 {
     margin-bottom: 12px;
     color: #FF8EA8;
@@ -47,6 +50,7 @@
     transform: translateX(4px);
 }
 
+/*----Receba novidades----*/
 .newsletter {
     display: flex;
     flex-direction: column;
