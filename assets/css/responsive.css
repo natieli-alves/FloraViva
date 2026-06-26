@@ -103,3 +103,94 @@
     }
 
 }
+
+
+
+
+/*------------- RESPONSIVO MOBILE -------------*/
+
+@media only screen and (max-width:600px){
+
+    .container{
+        width:100%;
+        padding:0 18px;
+    }
+
+/*----Hero----*/
+    .hero{
+        padding:30px 0;
+    }
+
+    .hero-text{
+        margin-top:0;
+        text-align:center;
+    }
+
+    .hero-text h1{
+        font-size:32px;
+    }
+
+    .btn{
+        padding:14px 35px;
+    }
+
+/*----Espécies----*/
+    .species-item{
+        width:100%;
+        max-width:350px;
+    }
+
+/*----Espécies raras----*/
+    .split-image img{
+        width:100%;
+        height:220px;
+        object-fit:cover;
+    }
+
+/*----Comentariozinhos----*/
+    .feature-item{
+        width:100%;
+        max-width:350px;
+    }
+
+/*----Especialistas----*/
+    .experts-grid{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .expert-card{
+        width:100%;
+        max-width:320px;
+    }
+
+/*----Footer----*/
+    footer{
+        display:block;
+        width:100%;
+    }
+
+    .footer-grid{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        gap:25px;
+    }
+
+    .footer-brand, .footer-col{
+        width:100%;
+    }
+
+    .newsletter{
+        width:100%;
+        align-items:center;
+    }
+
+    .newsletter input, .newsletter button{
+        width:100%;
+        max-width:320px;
+    }
+}
