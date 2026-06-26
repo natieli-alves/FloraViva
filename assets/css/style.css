@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+}
+
+header{
+    background: #f9d2e4;
+    padding: 14px 0; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+footer {
+    background: #fffaf8;
+    padding: 36px 0 50px;
+}
+
+.container{
+    width: 1120px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
